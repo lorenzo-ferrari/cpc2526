@@ -1,0 +1,8 @@
+!.gitignore
+!README.md
+
+/exercises/*
+!/exercises/*.rs
+
+/hands-on/*
+!/hands-on/*.rs
