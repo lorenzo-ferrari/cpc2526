@@ -1,4 +1,4 @@
-# Competitive Programming and Contests (2025–2026) - Exercises and Hands-On
+# Competitive Programming and Contests (2025-2026): Exercises and Hands-On
 
 Exercises for the course [Competitive Programming and Contests](https://pages.di.unipi.it/rossano/competitive/) (University of Pisa, Prof. Rossano Venturini).
 
