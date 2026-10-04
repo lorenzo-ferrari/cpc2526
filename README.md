@@ -4,7 +4,7 @@ Exercises for the course [Competitive Programming and Contests](https://pages.di
 
 All solutions are implemented in **Rust**.
 
-⚠️ The page of the course references problems to submit on GeeksForGeeks, which, however, does not allow for submissions in Rust. I have personally substituted them with equivalent problems from [cses.fi](cses.fi/problemset) and LeetCode.
+⚠️ The page of the course references problems to submit on GeeksForGeeks, which, however, does not allow for submissions in Rust. I have substituted them with equivalent problems from [cses.fi](cses.fi/problemset) and LeetCode.
 
 ---
 
@@ -49,6 +49,6 @@ All solutions are implemented in **Rust**.
 - [ ] **Longest increasing subsequence** [CSES 1145](https://cses.fi/problemset/task/1145)
 
 ### Greedy Algorithms
-- [ ] **Movie Festival*** [CSES 1629](https://cses.fi/problemset/task/1629/)
+- [ ] **Movie Festival** [CSES 1629](https://cses.fi/problemset/task/1629/)
 - [x] **Wilbur and array** [Codeforces 596B](http://codeforces.com/problemset/problem/596/B?locale=en)
 - [x] **Woodcutters** [Codeforces 545C](http://codeforces.com/contest/545/problem/C?locale=en)
