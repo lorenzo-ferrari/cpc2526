@@ -48,5 +48,5 @@ All solutions are implemented in **Rust**.
 
 ### Greedy Algorithms
 - [ ] **N meetings in one room** [GeeksforGeeks Activity Selection](http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0)
-- [ ] **Wilbur and array** [Codeforces 596B](http://codeforces.com/problemset/problem/596/B?locale=en)
-- [ ] **Woodcutters** [Codeforces 545C](http://codeforces.com/contest/545/problem/C?locale=en)
+- [x] **Wilbur and array** [Codeforces 596B](http://codeforces.com/problemset/problem/596/B?locale=en)
+- [x] **Woodcutters** [Codeforces 545C](http://codeforces.com/contest/545/problem/C?locale=en)
