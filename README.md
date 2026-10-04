@@ -27,8 +27,8 @@ All solutions are implemented in **Rust**.
   [`03_find-peak-element.rs`](03_find-peak-element.rs)
 
 ### Sweep Line
-- [ ] **Check if All the Integers in a Range Are Covered** [LeetCode 1893](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)
-- [ ] **Longest k-Good Segment** [Codeforces 616D](https://codeforces.com/contest/616/problem/D?locale=en)
+- [x] **Check if All the Integers in a Range Are Covered** [LeetCode 1893](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)
+- [x] **Longest k-Good Segment** [Codeforces 616D](https://codeforces.com/contest/616/problem/D?locale=en)
 - [ ] **Frogs and Mosquitoes** [Codeforces 609F](https://codeforces.com/contest/609/problem/F?locale=en)
 
 ### Prefix Sums and Trees
