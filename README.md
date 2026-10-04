@@ -47,6 +47,6 @@ All solutions are implemented in **Rust**.
 - [ ] **Longest increasing subsequence** [GeeksforGeeks LIS](https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0)
 
 ### Greedy Algorithms
-- [ ] **N meetings in one room** [GeeksforGeeks Activity Selection](http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0)
+- [ ] **N meetings in one room** [GeeksforGeeks Activity Selection](https://www.geeksforgeeks.org/problems/maximum-meetings-in-one-room/1)
 - [x] **Wilbur and array** [Codeforces 596B](http://codeforces.com/problemset/problem/596/B?locale=en)
 - [x] **Woodcutters** [Codeforces 545C](http://codeforces.com/contest/545/problem/C?locale=en)
