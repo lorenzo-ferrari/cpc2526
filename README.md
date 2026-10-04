@@ -32,7 +32,7 @@ All solutions are implemented in **Rust**.
 - [ ] **Frogs and Mosquitoes** [Codeforces 609F](https://codeforces.com/contest/609/problem/F?locale=en)
 
 ### Prefix Sums and Trees
-- [ ] **Continuous Subarray Sum** [LeetCode 523](https://leetcode.com/problems/continuous-subarray-sum/)
+- [x] **Continuous Subarray Sum** [LeetCode 523](https://leetcode.com/problems/continuous-subarray-sum/)
 - [ ] **Update the array** [SPOJ UPDATEIT](http://www.spoj.com/problems/UPDATEIT/)
 - [ ] **Nested segments (Fenwick tree)** [Codeforces 652D](http://codeforces.com/problemset/problem/652/D?locale=en)  
   [`04_nested-segments.rs`](04_nested-segments.rs)
