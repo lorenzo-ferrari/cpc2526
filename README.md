@@ -4,6 +4,8 @@ Exercises for the course [Competitive Programming and Contests](https://pages.di
 
 All solutions are implemented in **Rust**.
 
+⚠️ The page of the course references problems to submit on GeeksForGeeks, which, however, does not allow for submissions in Rust. I have personally substituted them with equivalent problems from [cses.fi](cses.fi/problemset) and LeetCode.
+
 ---
 
 ## Hands-On Assignments
@@ -41,12 +43,12 @@ All solutions are implemented in **Rust**.
 - [ ] **Powerful array** [Codeforces 86D](http://codeforces.com/contest/86/problem/D)
 
 ### Dynamic Programming
-- [ ] **Longest common subsequence** [GeeksforGeeks LCS](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0)
-- [ ] **Minimum number of jumps** [GeeksforGeeks Jump Game](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0)
-- [ ] **Subset sum** [GeeksforGeeks Subset Sum](https://practice.geeksforgeeks.org/problems/subset-sum-problem/0)
-- [ ] **Longest increasing subsequence** [GeeksforGeeks LIS](https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0)
+- [ ] **Longest common subsequence** [CSES 3403](https://cses.fi/problemset/task/3403/)
+- [ ] **Jump game II** [LeetCode 45 (Jump Game II)](https://leetcode.com/problems/jump-game-ii/description/)
+- [ ] **Money sums** [CSES 1745](https://cses.fi/problemset/task/1745/)
+- [ ] **Longest increasing subsequence** [CSES 1145](https://cses.fi/problemset/task/1145)
 
 ### Greedy Algorithms
-- [ ] **N meetings in one room** [GeeksforGeeks Activity Selection](https://www.geeksforgeeks.org/problems/maximum-meetings-in-one-room/1)
+- [ ] **Movie Festival*** [CSES 1629](https://cses.fi/problemset/task/1629/)
 - [x] **Wilbur and array** [Codeforces 596B](http://codeforces.com/problemset/problem/596/B?locale=en)
 - [x] **Woodcutters** [Codeforces 545C](http://codeforces.com/contest/545/problem/C?locale=en)
