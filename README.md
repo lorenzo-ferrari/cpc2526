@@ -20,13 +20,10 @@ All solutions are implemented in **Rust**.
 
 ### Introduction and Two Pointers
 - [x] **Kadane's algorithm** [LeetCode 53 (Maximum Subarray)](https://leetcode.com/problems/maximum-subarray/)  
-  [`01_maximum-subarray.rs`](01_maximum-subarray.rs)
 - [x] **Trapping rain water** [LeetCode 42 (Trapping Rain Water)](https://leetcode.com/problems/trapping-rain-water/)  
-  [`02_trapping-rain-water.rs`](02_trapping-rain-water.rs)
 
 ### Binary Search
 - [x] **Search for a peak in an (unsorted) array** [LeetCode 162 (Find Peak Element)](https://leetcode.com/problems/find-peak-element/)  
-  [`03_find-peak-element.rs`](03_find-peak-element.rs)
 
 ### Sweep Line
 - [x] **Check if All the Integers in a Range Are Covered** [LeetCode 1893](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)
