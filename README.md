@@ -36,8 +36,8 @@ All solutions are implemented in **Rust**.
 ### Prefix Sums and Trees
 - [x] **Continuous Subarray Sum** [LeetCode 523](https://leetcode.com/problems/continuous-subarray-sum/)
 - [x] **Update the array** [SPOJ UPDATEIT](http://www.spoj.com/problems/UPDATEIT/)
-- [ ] **Nested segments (Fenwick tree)** [Codeforces 652D](http://codeforces.com/problemset/problem/652/D?locale=en)  
-- [ ] **Nested segments (Segment tree)** [Codeforces 652D](http://codeforces.com/problemset/problem/652/D?locale=en)
+- [x] **Nested segments (Fenwick tree)** [Codeforces 652D](http://codeforces.com/problemset/problem/652/D?locale=en)  
+- [x] **Nested segments (Segment tree)** [Codeforces 652D](http://codeforces.com/problemset/problem/652/D?locale=en)
 
 ### Square Root Decomposition and Mo's Algorithm
 - [ ] **Powerful array** [Codeforces 86D](http://codeforces.com/contest/86/problem/D)
