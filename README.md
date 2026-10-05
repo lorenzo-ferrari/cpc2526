@@ -35,7 +35,7 @@ All solutions are implemented in **Rust**.
 
 ### Prefix Sums and Trees
 - [x] **Continuous Subarray Sum** [LeetCode 523](https://leetcode.com/problems/continuous-subarray-sum/)
-- [ ] **Update the array** [SPOJ UPDATEIT](http://www.spoj.com/problems/UPDATEIT/)
+- [x] **Update the array** [SPOJ UPDATEIT](http://www.spoj.com/problems/UPDATEIT/)
 - [ ] **Nested segments (Fenwick tree)** [Codeforces 652D](http://codeforces.com/problemset/problem/652/D?locale=en)  
 - [ ] **Nested segments (Segment tree)** [Codeforces 652D](http://codeforces.com/problemset/problem/652/D?locale=en)
 
