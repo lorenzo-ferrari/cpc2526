@@ -43,7 +43,7 @@ All solutions are implemented in **Rust**.
 - [x] **Longest common subsequence** [CSES 3403](https://cses.fi/problemset/task/3403/)
 - [x] **Jump game II** [LeetCode 45 (Jump Game II)](https://leetcode.com/problems/jump-game-ii/description/)
 - [x] **Money sums** [CSES 1745](https://cses.fi/problemset/task/1745/)
-- [x] **Increasing subsequence** [CSES 1145](https://cses.fi/problemset/task/1145)
+- [x] **Longest increasing subsequence** [CSES 1145](https://cses.fi/problemset/task/1145)
 
 ### Greedy Algorithms
 - [x] **Movie Festival** [CSES 1629](https://cses.fi/problemset/task/1629/)
