@@ -40,7 +40,7 @@ All solutions are implemented in **Rust**.
 - [x] **Nested segments (Segment tree)** [Codeforces 652D](http://codeforces.com/problemset/problem/652/D?locale=en)
 
 ### Square Root Decomposition and Mo's Algorithm
-- [ ] **Powerful array** [Codeforces 86D](http://codeforces.com/contest/86/problem/D)
+- [x] **Powerful array** [Codeforces 86D](http://codeforces.com/contest/86/problem/D)
 
 ### Dynamic Programming
 - [ ] **Longest common subsequence** [CSES 3403](https://cses.fi/problemset/task/3403/)
