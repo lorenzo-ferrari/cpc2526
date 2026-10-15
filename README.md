@@ -10,8 +10,8 @@ All solutions are implemented in **Rust**.
 
 ## Hands-On Assignments
 
-- [ ] **Hands-On 1**
-- [ ] **Hands-On 2**
+- [x] **Hands-On 1**
+- [x] **Hands-On 2**
 - [ ] **Hands-On 3**
 
 ---
