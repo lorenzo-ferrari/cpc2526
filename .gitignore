@@ -4,6 +4,5 @@
 /exercises/*
 !/exercises/*.rs
 
-/hands-on/*
-!/hands-on/hands-on-1/*.rs
-!/hands-on/hands-on-2/*.rs
+/hands-on/*/*
+!/hands-on/*/*.rs
