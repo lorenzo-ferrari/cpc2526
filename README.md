@@ -28,7 +28,7 @@ All solutions are implemented in **Rust**.
 ### Sweep Line
 - [x] **Check if All the Integers in a Range Are Covered** [LeetCode 1893](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/)
 - [x] **Longest k-Good Segment** [Codeforces 616D](https://codeforces.com/contest/616/problem/D?locale=en)
-- [ ] **Frogs and Mosquitoes** [Codeforces 609F](https://codeforces.com/contest/609/problem/F?locale=en)
+<!-- - [ ] **Frogs and Mosquitoes** [Codeforces 609F](https://codeforces.com/contest/609/problem/F?locale=en) -->
 
 ### Prefix Sums and Trees
 - [x] **Continuous Subarray Sum** [LeetCode 523](https://leetcode.com/problems/continuous-subarray-sum/)
