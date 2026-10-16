@@ -25,7 +25,7 @@ impl Tree {
         }
     }
 
-    /// Adds a child to the node with `parent_id` and returns the id of the new node. 
+    /// Adds a child to the node with `parent_id` and returns the id of the new node.
     /// The new node has the specified `key`. The new node is the left  child of the  
     /// node `parent_id` iff `is_left` is `true`, the right child otherwise.
     ///
@@ -124,17 +124,17 @@ impl Tree {
                 let res_right = self.rec_max_path(node.id_right);
 
                 let max_node_to_leaf = node.key + res_left.1.max(res_right.1);
-                let res = (node.key + res_left.1 + res_right.1).max(res_left.0).max(res_right.0);
+                let res = (node.key + res_left.1 + res_right.1)
+                    .max(res_left.0)
+                    .max(res_right.0);
 
                 return (res, max_node_to_leaf);
             } else if node.id_left.is_some() {
-
                 let res_left = self.rec_max_path(node.id_left);
                 let res = (node.key + res_left.1).max(res_left.0);
 
                 return (res, res_left.1 + node.key);
             } else if node.id_right.is_some() {
-
                 let res_right = self.rec_max_path(node.id_right);
                 let res = (node.key + res_right.1).max(res_right.0);
 
@@ -171,7 +171,7 @@ mod tests {
 
         tree.add_node(1, 7, false); // id 3
         tree.add_node(2, 20, true); // id 4
-    
+
         assert_eq!(tree.sum(), 64);
         assert_eq!(tree.max_path(), 64);
     }
