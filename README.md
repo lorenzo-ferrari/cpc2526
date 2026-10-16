@@ -12,7 +12,7 @@ All solutions are implemented in **Rust**.
 
 - [x] **Hands-On 1**
 - [x] **Hands-On 2**
-- [ ] **Hands-On 3**
+- [x] **Hands-On 3**
 
 ---
 
