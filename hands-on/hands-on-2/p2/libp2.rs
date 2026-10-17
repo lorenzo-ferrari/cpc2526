@@ -1,6 +1,3 @@
-// Hands-On 2; Problem #1
-use std::io::{self, Read};
-
 pub struct Solution;
 struct SegTree {
     n: usize,
@@ -23,9 +20,14 @@ impl SegTree {
             seg_t[i] = seg_t[2 * i].max(seg_t[2 * i + 1]);
         }
 
-        Self { n: seg_n, t: seg_t, lazy: vec![-1; 2 * seg_n], lazy_set: vec![false; 2 * seg_n] }
+        Self {
+            n: seg_n,
+            t: seg_t,
+            lazy: vec![-1; 2 * seg_n],
+            lazy_set: vec![false; 2 * seg_n],
+        }
     }
-    
+
     pub fn minch(&mut self, l: usize, r: usize, t: i32) {
         self.minch_rec(1usize, 0usize, self.n, l, r, t);
         return;
@@ -42,7 +44,8 @@ impl SegTree {
     }
 
     pub fn prop(&mut self, i: usize) {
-        if self.lazy_set[i] && i < self.n { // crash
+        if self.lazy_set[i] && i < self.n {
+            // crash
             self.apply(2 * i, self.lazy[i]);
             self.apply(2 * i + 1, self.lazy[i]);
             self.lazy_set[i] = false;
@@ -85,7 +88,14 @@ impl SegTree {
 }
 
 impl Solution {
-    pub fn solve(m: usize, a: Vec<i32>, is_query: Vec<bool>, l: Vec<usize>, r: Vec<usize>, t: Vec<i32>) -> Vec<i32> {
+    pub fn solve(
+        m: usize,
+        a: Vec<i32>,
+        is_query: Vec<bool>,
+        l: Vec<usize>,
+        r: Vec<usize>,
+        t: Vec<i32>,
+    ) -> Vec<i32> {
         let mut ans: Vec<i32> = vec![];
         let mut st = SegTree::new(a);
         for i in 0..m {
@@ -97,35 +107,5 @@ impl Solution {
         }
 
         ans
-    }
-}
-
-fn main() {
-    let mut input = String::new();
-    io::stdin().read_to_string(&mut input).unwrap();
-
-    let mut ints = input.split_whitespace().map(|s| s.parse::<i32>().unwrap());
-
-    let n = ints.next().unwrap() as usize;
-    let m = ints.next().unwrap() as usize;
-    let mut a = vec![0i32; n];
-    let mut is_query = vec![false; m];
-    let mut l = vec![0usize; m];
-    let mut r = vec![0usize; m];
-    let mut t = vec![0i32; m];
-    for i in 0..n {
-        a[i] = ints.next().unwrap();
-    }
-    for i in 0..m {
-        is_query[i] = ints.next().unwrap() != 0;
-        l[i] = (ints.next().unwrap() - 1) as usize;
-        r[i] = (ints.next().unwrap() - 1) as usize;
-        if !is_query[i] {
-            t[i] = ints.next().unwrap();
-        }
-    }
-
-    for x in Solution::solve(m, a, is_query, l, r, t) {
-        println!("{}", x);
     }
 }

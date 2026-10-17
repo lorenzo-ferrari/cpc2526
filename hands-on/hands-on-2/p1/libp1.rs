@@ -1,6 +1,3 @@
-// Hands-On 2; Problem #1
-use std::io::{self, Read};
-
 fn merge(a: &[i32], b: &[i32]) -> Vec<i32> {
     let mut res = Vec::with_capacity(a.len() + b.len());
     let (mut i, mut j) = (0, 0);
@@ -37,7 +34,7 @@ impl MergeSortTree {
 
         Self { n, t }
     }
-    
+
     pub fn is_there(&self, mut l: usize, mut r: usize, k: i32) -> bool {
         l += self.n;
         r += self.n;
@@ -82,32 +79,5 @@ impl Solution {
         }
 
         ans
-    }
-}
-
-fn main() {
-    let mut input = String::new();
-    io::stdin().read_to_string(&mut input).unwrap();
-
-    let mut ints = input.split_whitespace().map(|s| s.parse::<i32>().unwrap());
-
-    let n = ints.next().unwrap() as usize;
-    let m = ints.next().unwrap() as usize;
-    let mut segs = vec![(0usize, 0usize); n];
-    let mut queries = vec![(0usize, 0usize, 0i32); m];
-    for i in 0..n {
-        let l = ints.next().unwrap() as usize;
-        let r = ints.next().unwrap() as usize;
-        segs[i] = (l, r);
-    }
-    for i in 0..m {
-        let l = ints.next().unwrap() as usize;
-        let r = ints.next().unwrap() as usize;
-        let k = ints.next().unwrap();
-        queries[i] = (l, r, k);
-    }
-
-    for x in Solution::solve(segs, queries) {
-        println!("{}", x as i32);
     }
 }

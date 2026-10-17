@@ -4,8 +4,10 @@
 /exercises/*
 !/exercises/*.rs
 
-/hands-on/*/*
-!/hands-on/*/*.rs
-!/hands-on/*/*.pdf
-!/hands-on/*/*/*.rs
-!/hands-on/*/*/*.pdf
+/hands-on/**
+!/hands-on/**/
+**/target/
+**/testsets/
+**/TestSet*/
+!/hands-on/**/*.rs
+!/hands-on/**/*.pdf
