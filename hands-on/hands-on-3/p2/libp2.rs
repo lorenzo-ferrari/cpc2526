@@ -1,6 +1,3 @@
-// Hands-On 3; Problem #2
-use std::io::{self, Read};
-
 pub struct Solution;
 
 struct FenwickTree {
@@ -62,23 +59,6 @@ impl Solution {
     }
 }
 
-fn main() {
-    let mut input = String::new();
-    io::stdin().read_to_string(&mut input).unwrap();
-
-    let mut ints = input.split_whitespace().map(|s| s.parse::<i32>().unwrap());
-
-    let n = ints.next().unwrap() as usize;
-    let mut pts = vec![(0i32, 0i32); n];
-    for i in 0..n {
-        let x = ints.next().unwrap();
-        let y = ints.next().unwrap();
-        pts[i] = (x, y);
-    }
-
-    println!("{}", Solution::solve(n, pts));
-}
-
 // vibe-coded stress test
 #[cfg(test)]
 mod tests {
@@ -116,7 +96,10 @@ mod tests {
     #[test]
     fn test_duplicates_and_ties() {
         let pts = vec![(1, 2), (1, 5), (1, 2), (2, 4), (3, 6)];
-        assert_eq!(Solution::solve(pts.len(), pts.clone()), naive_max_chain(pts));
+        assert_eq!(
+            Solution::solve(pts.len(), pts.clone()),
+            naive_max_chain(pts)
+        );
     }
 
     #[test]
@@ -140,4 +123,3 @@ mod tests {
         }
     }
 }
-
